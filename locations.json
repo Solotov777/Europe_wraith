@@ -1,0 +1,24 @@
+{
+  "priority_countries": {
+    "Ukraine": ["Ukraine", "Ukrainian", "Kyiv", "Kiev", "Kharkiv", "Kherson", "Odesa", "Odessa", "Dnipro", "Donetsk", "Luhansk", "Zaporizhzhia", "Zaporijjia", "Crimea", "Crimée"],
+    "Russia (European part)": ["Russia", "Russian", "Russie", "Moscow", "Moscou", "Belgorod", "Bryansk", "Kursk", "Kaliningrad", "Saint Petersburg", "St Petersburg"],
+    "Poland": ["Poland", "Polish", "Pologne", "Suwałki", "Suwalki", "Augustów", "Augustow", "Gołdap", "Goldap", "Ełk", "Elk", "Bemowo Piskie", "Białystok", "Bialystok", "Elbląg", "Elblag", "Olsztyn", "Gdańsk", "Gdansk", "Gdynia", "Lublin", "Rzeszów", "Rzeszow"],
+    "Estonia": ["Estonia", "Estonian", "Estonie", "Narva", "Jõhvi", "Johvi", "Sillamäe", "Sillamae", "Tapa", "Rakvere", "Võru", "Voru", "Tallinn"],
+    "Latvia": ["Latvia", "Latvian", "Lettonie", "Daugavpils", "Rēzekne", "Rezekne", "Ādaži", "Adazi", "Riga"],
+    "Lithuania": ["Lithuania", "Lithuanian", "Lituanie", "Vilnius", "Kaunas", "Šiauliai", "Siauliai", "Siaullai", "Rukla", "Marijampolė", "Marijampole", "Druskininkai"],
+    "Moldova": ["Moldova", "Moldavie", "Chisinau", "Chișinău", "Kishinev", "Transnistria", "Transnistrie", "Dniester", "Dniestr", "Ștefan Vodă", "Stefan Voda", "Palanca", "Căușeni", "Causeni"],
+    "Romania": ["Romania", "Romanian", "Roumanie", "Constanța", "Constanta", "Tulcea", "Galați", "Galati", "Cincu", "Bucharest", "Bucarest", "Danube Delta", "delta du Danube", "Romanian Black Sea coast"],
+    "Finland": ["Finland", "Finnish", "Finlande", "Vaalimaa", "Lappeenranta", "Imatra", "Joensuu", "Kajaani", "Rovaniemi", "Sodankylä", "Sodankyla"],
+    "Belarus": ["Belarus", "Belarusian", "Biélorussie", "Bielorussie", "Minsk"],
+    "Slovakia": ["Slovakia", "Slovak", "Slovaquie", "Košice", "Kosice", "Eastern Slovakia", "East Slovakia"]
+  },
+  "secondary_countries": {
+    "Germany": ["Germany", "German", "Allemagne", "Ramstein", "Kaiserslautern", "Wiesbaden", "Stuttgart", "Ulm", "Uedem", "Geilenkirchen", "Rostock", "Wilhelmshaven", "Wihelmshaven"],
+    "Bulgaria": ["Bulgaria", "Bulgarian", "Bulgarie", "Varna", "Burgas", "Bourgas", "Bulgarian EEZ", "Bulgarian waters", "Bulgarian Black Sea coast"],
+    "Czechia": ["Czechia", "Czech Republic", "Czech", "Tchéquie", "Republique Tcheque"],
+    "Sweden": ["Sweden", "Swedish", "Suède", "Suede"],
+    "United Kingdom": ["United Kingdom", "UK", "British", "Britain", "Royaume-Uni", "Northwood", "Greater London", "Faslane", "Helensburgh", "Clyde", "Portsmouth", "Porsmouth", "Plymouth", "Devonport", "Lossiemouth"],
+    "France": ["France", "French", "Brest", "Île Longue", "Ile Longue", "Toulon", "Istres"]
+  },
+  "maritime": ["Black Sea", "mer Noire", "Baltic Sea", "mer Baltique", "Danube Delta", "delta du Danube", "exclusive economic zone", "EEZ", "ZEE", "territorial waters", "eaux territoriales", "undersea cable", "subsea cable", "offshore platform", "maritime drone", "sea drone", "naval drone"]
+}
