@@ -140,7 +140,6 @@ def send_telegram(message):
     request(url, payload)
 
 def main():
-    send_telegram("✅ TEST : mon bot OSINT fonctionne !")
     now = datetime.now(timezone.utc)
     cutoff = now - timedelta(hours=2)
 
