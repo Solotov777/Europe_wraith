@@ -1,40 +1,48 @@
-
-name: Veille OSINT Europe
+name: Veille OSINT Europe V2
 
 on:
   schedule:
-    - cron: "3,18,33,48 * * * *"
+    - cron: "7,22,37,52 * * * *"
   workflow_dispatch:
+    inputs:
+      test_telegram:
+        description: "Envoyer uniquement un message de test Telegram"
+        type: boolean
+        default: false
 
 permissions:
-  contents: read
+  contents: write
 
 concurrency:
-  group: osint-monitor
+  group: europe-osint-state
   cancel-in-progress: false
 
 jobs:
   surveillance:
     runs-on: ubuntu-latest
     steps:
-      - name: Recuperer le projet
+      - name: Charger le dépôt
         uses: actions/checkout@v4
-
+        with:
+          persist-credentials: true
       - name: Installer Python
         uses: actions/setup-python@v5
         with:
-          python-version: "3.12"
-
-      - name: Restaurer les alertes deja envoyees
-        uses: actions/cache@v4
-        with:
-          path: seen.json
-          key: osint-${{ github.run_id }}-${{ github.run_attempt }}
-          restore-keys: |
-            osint-
-
-      - name: Lancer la veille
+          python-version: '3.12'
+      - name: Lancer la surveillance
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          TEST_TELEGRAM: ${{ github.event.inputs.test_telegram || 'false' }}
+          SEND_P3: 'true'
         run: python monitor.py
+      - name: Sauvegarder l'historique dans le dépôt
+        if: success() && github.event.inputs.test_telegram != 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add seen.json
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: update OSINT monitoring state [skip ci]"
+            git push
+          fi
