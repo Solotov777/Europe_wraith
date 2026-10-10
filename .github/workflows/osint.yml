@@ -1,0 +1,40 @@
+
+name: Veille OSINT Europe
+
+on:
+  schedule:
+    - cron: "3,18,33,48 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: osint-monitor
+  cancel-in-progress: false
+
+jobs:
+  surveillance:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Recuperer le projet
+        uses: actions/checkout@v4
+
+      - name: Installer Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Restaurer les alertes deja envoyees
+        uses: actions/cache@v4
+        with:
+          path: seen.json
+          key: osint-${{ github.run_id }}-${{ github.run_attempt }}
+          restore-keys: |
+            osint-
+
+      - name: Lancer la veille
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python monitor.py
