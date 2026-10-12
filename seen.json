@@ -182,9 +182,15 @@
     "3f2ba25bd1cae33ae87a346bb7c0c2e20161888237f602bc25e0e82019c298cd": 1791786985.317527,
     "e75c247d4c3a009c8f088111e04901dbaa139615b213f98a52678240161b79ef": 1791786985.317527
   },
-  "last_run_utc": "2026-10-12T06:36:25.317527+00:00",
-  "sources_ok": 7,
-  "errors": [],
-  "last_articles": 331,
-  "last_sent": 12
+  "last_run_utc": "2026-10-12T07:06:17.118221+00:00",
+  "sources_ok": 2,
+  "errors": [
+    "Google News Ukraine: HTTP Error 503: Service Unavailable",
+    "Google News Europe securite: HTTP Error 503: Service Unavailable",
+    "Geo 7/34 Poland: HTTP Error 503: Service Unavailable",
+    "Geo 8/34 Poland: HTTP Error 503: Service Unavailable",
+    "GDELT: HTTP Error 429: Too Many Requests"
+  ],
+  "last_articles": 48,
+  "last_sent": 0
 }
