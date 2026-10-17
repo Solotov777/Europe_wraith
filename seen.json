@@ -2165,11 +2165,19 @@
     "aa09aae2f2a6537ce918b0e4ed6b4e6acd64444afdc631269d0a2c8dcc14e830": 1792245674.170171,
     "8aef6737404a0d809939bbbf0c28f72db4523a8203460c5760c1ffd76e3a8425": 1792245674.170171,
     "4971859b4989123652ae8140501c92bcc83cbb1fceaa31d0d3a446a20bcf078a": 1792245674.170171,
-    "a2ac00a8fd2882735a31ef182d542c6ffb94bd78b685a7c0cc266e028c6144d7": 1792245674.170171
+    "a2ac00a8fd2882735a31ef182d542c6ffb94bd78b685a7c0cc266e028c6144d7": 1792245674.170171,
+    "f453ba5a7e670bc061ca245412991e6def5a204053a4ddda05c95153a85c2275": 1792247546.338637,
+    "1629e5b86d2e689e6db156b0a71ed48c3d619471f46c9816ddb3dfb0dcefb3a7": 1792247546.338637,
+    "3df7028c653734144cf2d2de78042d8426bd9800a68830c2ca2ec766bd6a003e": 1792247546.338637
   },
-  "last_run_utc": "2026-10-17T14:01:14.170171+00:00",
-  "sources_ok": 7,
-  "errors": [],
-  "last_articles": 489,
-  "last_sent": 12
+  "last_run_utc": "2026-10-17T14:32:26.338637+00:00",
+  "sources_ok": 3,
+  "errors": [
+    "Google News Ukraine: HTTP Error 503: Service Unavailable",
+    "Google News Europe securite: HTTP Error 503: Service Unavailable",
+    "Geo 7/34 Poland: HTTP Error 503: Service Unavailable",
+    "Geo 8/34 Poland: HTTP Error 503: Service Unavailable"
+  ],
+  "last_articles": 200,
+  "last_sent": 3
 }
