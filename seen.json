@@ -1996,13 +1996,14 @@
     "a4adaebf711a7279f302ccea21c5e69dfeea891cc34a366994fbf3d2a549be0a": 1792204498.798865,
     "c282ec14b0f791cb6a4a9cb0df3877b6bde36c62cccaf1daea29e0ff04543c02": 1792204498.798865,
     "7f6b60c93ae61abe7839e938400b832ff8ac88aeed4d9cececbad9911f2d69ea": 1792204498.798865,
-    "d3827557d17c61232e544b4dea29f732defad029f2a00d82cd1177fae62a0efd": 1792204498.798865
+    "d3827557d17c61232e544b4dea29f732defad029f2a00d82cd1177fae62a0efd": 1792204498.798865,
+    "635cdfab93f55c3685aef728084f8dc16981f26a4eed2a1aaeca7be4234a7dcb": 1792206282.821804
   },
-  "last_run_utc": "2026-10-17T02:34:58.798865+00:00",
+  "last_run_utc": "2026-10-17T03:04:42.821804+00:00",
   "sources_ok": 6,
   "errors": [
     "GDELT: HTTP Error 429: Too Many Requests"
   ],
-  "last_articles": 311,
-  "last_sent": 10
+  "last_articles": 425,
+  "last_sent": 1
 }
