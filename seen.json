@@ -2225,9 +2225,11 @@
     "be8264e66037abdc66bb23d77efa3f47fc324d15dc503cbafa52fc5a65d3c4a2": 1792262132.924566,
     "de5be3321328ee6650887a5948d8dcb961c0efe310bc24f9c0384d6e0870cf8f": 1792262132.924566
   },
-  "last_run_utc": "2026-10-17T18:35:32.924566+00:00",
-  "sources_ok": 7,
-  "errors": [],
-  "last_articles": 434,
-  "last_sent": 10
+  "last_run_utc": "2026-10-17T19:03:50.706028+00:00",
+  "sources_ok": 6,
+  "errors": [
+    "GDELT: HTTP Error 429: Too Many Requests"
+  ],
+  "last_articles": 285,
+  "last_sent": 0
 }
