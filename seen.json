@@ -4288,16 +4288,13 @@
     "e59cdf84776807b827651d175858ed79b20f4dfe0dad14bbf40d4b4793a5856e": 1792813022.352906,
     "b3c7757d8556017cdfdc91f875e46f7f4a07d8a3d5c807bd656c7ab04944e667": 1792813022.352906,
     "e3d53072110384f039dd06bb5af849cd890a8fe646806ffe3248bd092ae32375": 1792813022.352906,
-    "1357de823045370927394daebb33c2dff6905269fcf3f92451260aeb2e682d31": 1792813022.352906
+    "1357de823045370927394daebb33c2dff6905269fcf3f92451260aeb2e682d31": 1792813022.352906,
+    "21c946505e94eda46e7c7775e4b03281abb6a0e6721f2a0db7666b821b2c725f": 1792814981.035911,
+    "f3f574f16b9492f588a9b9013bd27953fdf86e0b71bdb841e4ddcc83e06f51da": 1792814981.035911
   },
-  "last_run_utc": "2026-10-24T03:37:02.352906+00:00",
-  "sources_ok": 3,
-  "errors": [
-    "Google News Ukraine: HTTP Error 503: Service Unavailable",
-    "Google News Europe securite: HTTP Error 503: Service Unavailable",
-    "Geo 23/34 Germany: HTTP Error 503: Service Unavailable",
-    "Geo 24/34 Germany: HTTP Error 503: Service Unavailable"
-  ],
-  "last_articles": 195,
-  "last_sent": 4
+  "last_run_utc": "2026-10-24T04:09:41.035911+00:00",
+  "sources_ok": 7,
+  "errors": [],
+  "last_articles": 459,
+  "last_sent": 2
 }
