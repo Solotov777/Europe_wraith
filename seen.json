@@ -7455,11 +7455,11 @@
     "0ca372832f845de05e848ba1a91818ec198845963b5d9418dd38fa89807e4c2b": 1793933683.042594,
     "fa8e24c2cdc48e1c802e0380762d73e786bb3c80f24e5948066a7b17c53ab29f": 1793937352.455578
   },
-  "last_run_utc": "2026-11-06T03:55:52.455578+00:00",
+  "last_run_utc": "2026-11-06T04:59:23.389694+00:00",
   "sources_ok": 6,
   "errors": [
     "GDELT: HTTP Error 429: Too Many Requests"
   ],
-  "last_articles": 229,
-  "last_sent": 1
+  "last_articles": 269,
+  "last_sent": 0
 }
