@@ -8497,15 +8497,17 @@
     "cfab3685d61fc746e2a19e5b884a54b172bb056953f96986f43ded528fe548be": 1794858608.249211,
     "40aa48fe91cb43a054b7455a9e55f0f0c8cee8ad354a980a39521b958ca10ac7": 1794858608.249211,
     "b948477818499538e27c03c8e74b7d619e177988a31dddc01e76dcd9e660ab2a": 1794858608.249211,
-    "2e0b8dbf665722e50f022961acd5e8b22a445a9859b10f2b32882fa53a20ec6f": 1794858608.249211
+    "2e0b8dbf665722e50f022961acd5e8b22a445a9859b10f2b32882fa53a20ec6f": 1794858608.249211,
+    "19b67f9bbda771b47e6150ebca2e44783e8124d01f68d0900f95d30d67ddf170": 1794884038.379242,
+    "05800ea94251c8709e95367b018cfc9ec4ff59a0c7e839f4097849028717d53b": 1794884038.379242
   },
-  "last_run_utc": "2026-11-16T19:50:08.249211+00:00",
+  "last_run_utc": "2026-11-17T02:53:58.379242+00:00",
   "sources_ok": 4,
   "errors": [
-    "Geo 17/34 Romania: HTTP Error 429: Too Many Requests",
-    "Geo 18/34 Romania: HTTP Error 429: Too Many Requests",
-    "GDELT: HTTP Error 429: Too Many Requests"
+    "Google News Ukraine: HTTP Error 429: Too Many Requests",
+    "Google News Europe securite: HTTP Error 429: Too Many Requests",
+    "Geo 11/34 Latvia: HTTP Error 429: Too Many Requests"
   ],
-  "last_articles": 186,
-  "last_sent": 12
+  "last_articles": 120,
+  "last_sent": 2
 }
