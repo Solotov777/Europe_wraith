@@ -8897,11 +8897,15 @@
     "a15dce74a591a7170928c705f351a8cb9599d4de20bce0fe99ca214718adddb9": 1795823005.817784,
     "3df13b3d4fc2682c49122eb49526c97d2f3e75ba44417ea28d4f4ad9a22c9bfb": 1795823005.817784
   },
-  "last_run_utc": "2026-11-27T23:43:25.817784+00:00",
-  "sources_ok": 6,
+  "last_run_utc": "2026-11-28T07:38:33.759964+00:00",
+  "sources_ok": 2,
   "errors": [
-    "GDELT: <urlopen error timed out>"
+    "Google News Ukraine: HTTP Error 503: Service Unavailable",
+    "Google News Europe securite: HTTP Error 503: Service Unavailable",
+    "Geo 33/34 Zones maritimes: HTTP Error 503: Service Unavailable",
+    "Geo 34/34 Zones maritimes: HTTP Error 503: Service Unavailable",
+    "GDELT: HTTP Error 429: Too Many Requests"
   ],
-  "last_articles": 358,
-  "last_sent": 12
+  "last_articles": 43,
+  "last_sent": 0
 }
